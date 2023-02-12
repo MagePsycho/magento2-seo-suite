@@ -1,0 +1,43 @@
+<div class="mp-system-module-info-wrapper">
+    <img src="https://www.magepsycho.com/_logo.svg" alt="MagePsycho" style="height: 50px;">
+    <p style="margin: 0;">
+        <strong class="mp-module-info-meta">
+            <?= /* @noEscape */ $block->getExtensionName() ?><sup style="font-size: 80%;">v<?= /* @noEscape */ $block->getModuleVersion() ?></sup> <?= /* @noEscape */ __('by') ?>
+        </strong>
+        <a target="_blank" href="https://www.magepsycho.com" title="MagePsycho Store - Free / Premium Magento Extensions,  Themes &amp; Services">
+            <strong>MagePsycho</strong>
+        </a>
+    </p>
+    <div class="mp-module-info-content">
+        <p>
+            <?= /* @noEscape */ __('If you need any support or have feedback, please') ?> <a href="https://www.magepsycho.com/contact" class="mp-module-info-link mp-reddish" target="_blank" title="MagePsycho Store - Contact Us"><?= /* @noEscape */ __('contact us') ?></a>
+        </p>
+        <p>
+            <?= /* @noEscape */ __('Also, feel free to browse our') ?> <a href="https://www.magepsycho.com/extensions/magento-2.html" class="mp-module-info-link mp-bluish" target="_blank" title="MagePsycho Store - Free / Premium Magento Extensions,  Themes &amp; Services">store</a> <?= /* @noEscape */ __('for more extensions.') ?>
+        </p>
+
+    </div>
+</div>
+<style>
+    .mp-system-module-info-wrapper {
+        background:#f8f8f8; border-top:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; padding: 12px 0 0 12px;
+    }
+    .mp-system-module-info-wrapper .mp-module-info-meta {
+        color:#EA7601;
+    }
+    .mp-system-module-info-wrapper .mp-module-info-content {
+        padding: 11px 0;font-size: 1.4rem;overflow: hidden;display: block;font-weight: 400;
+    }
+    .mp-system-module-info-wrapper .mp-module-info-content a.mp-module-info-link  {
+        padding: 2px 8px; border-radius: 4px; color: #fff; text-decoration: none; text-transform: uppercase;
+    }
+    .mp-system-module-info-wrapper .mp-module-info-content a.mp-module-info-link:hover  {
+        text-decoration: underline;
+    }
+    .mp-system-module-info-wrapper .mp-module-info-content a.mp-module-info-link.mp-reddish {
+        background: #eb5202;
+    }
+    .mp-system-module-info-wrapper .mp-module-info-content a.mp-module-info-link.mp-bluish {
+        background: #1787e0;
+    }
+</style>

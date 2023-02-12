@@ -1,0 +1,10 @@
+<?php
+/** @var \MagePsycho\SeoSuite\Block\Catalog\Category\Pager $block */
+?>
+<link rel="canonical" href="<?= /* @noEscape */ $block->getCurrentPageUrl() ?>" />
+<?php if (!$block->isFirstPage()): ?>
+    <link rel="prev" href="<?= /* @noEscape */ $block->getPreviousPageUrl() ?>" />
+<?php endif; ?>
+<?php if (!$block->isLastPage()): ?>
+    <link rel="next" href="<?= /* @noEscape */ $block->getNextPageUrl() ?>" />
+<?php endif; ?>

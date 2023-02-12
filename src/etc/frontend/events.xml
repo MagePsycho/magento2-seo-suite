@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   MagePsycho
+ * @package    MagePsycho_SeoSuite
+ * @author     Raj KB <rajkb@magepsycho.com>
+ * @website    https://www.magepsycho.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="layout_generate_blocks_after">
+        <observer name="magepsycho_seosuite_layout_generate_blocks_after"
+                  instance="MagePsycho\SeoSuite\Observer\Frontend\LayoutGenerateBlocksAfter"/>
+    </event>
+</config>

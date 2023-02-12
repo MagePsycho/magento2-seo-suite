@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   MagePsycho
+ * @package    MagePsycho_SeoSuite
+ * @author     Raj KB <rajkb@magepsycho.com>
+ * @website    https://www.magepsycho.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="MagePsycho_SeoSuite::css/sitemap.css"/>
+    </head>
+    <referenceBlock name="content">
+        <block class="MagePsycho\SeoSuite\Block\Sitemap" name="magepsycho.seosuite.sitemap.index" template="MagePsycho_SeoSuite::sitemap/index.phtml"/>
+    </referenceBlock>
+</page>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   MagePsycho
+ * @package    MagePsycho_SeoSuite
+ * @author     Raj KB <rajkb@magepsycho.com>
+ * @website    https://www.magepsycho.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <magepsycho_seosuite>
+            <general>
+                <enabled>1</enabled>
+                <debug>0</debug>
+            </general>
+            <robots>
+                <noindex_routes><![CDATA[/customer/*/*
+/checkout/*/*
+/cms/noroute/index
+/review/product/list
+/catalogsearch/*/*]]></noindex_routes>
+            </robots>
+            <seo_pagination>
+                <enabled>1</enabled>
+            </seo_pagination>
+            <html_sitemap>
+                <enabled>1</enabled>
+                <meta_title>Sitemap</meta_title>
+                <meta_description>HTML Sitemap</meta_description>
+                <product_label>Products</product_label>
+                <category_label>Categories</category_label>
+                <cms_page_label>Pages</cms_page_label>
+            </html_sitemap>
+        </magepsycho_seosuite>
+    </default>
+</config>
