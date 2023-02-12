@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![Packagist Version](https://img.shields.io/github/v/tag/MagePsycho/magento2-seo-suite?logo=packagist&sort=semver&label=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-discountlimit)
+[![Packagist Version](https://img.shields.io/github/v/tag/MagePsycho/magento2-seo-suite?logo=packagist&sort=semver&label=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-seosuite)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/magepsycho/magento2-seosuite.svg?logo=packagist&style=for-the-badge)](https://packagist.org/packages/magepsycho/magento2-seosuite/stats)
 ![Supported Magento Versions](https://img.shields.io/badge/magento-%202.3_|_2.4-brightgreen.svg?logo=magento&longCache=true&style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?color=%23234&style=for-the-badge)
